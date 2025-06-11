@@ -46,8 +46,8 @@
           }
         ],
         "responses": {
-          "200": {
-            "description": "OK"
+          "201": {
+            "description": "Created"
           },
           "422": {
             "description": "Unprocessable Entity"
@@ -83,27 +83,6 @@
             "in": "path",
             "required": true,
             "type": "string"
-          },
-          {
-            "name": "body",
-            "in": "body",
-            "schema": {
-              "type": "object",
-              "properties": {
-                "name": {
-                  "example": "any"
-                },
-                "gender": {
-                  "example": "any"
-                },
-                "age": {
-                  "example": "any"
-                },
-                "className": {
-                  "example": "any"
-                }
-              }
-            }
           }
         ],
         "responses": {
@@ -112,6 +91,9 @@
           },
           "404": {
             "description": "Not Found"
+          },
+          "422": {
+            "description": "Unprocessable Entity"
           }
         }
       },

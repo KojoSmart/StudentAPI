@@ -7,32 +7,6 @@
     "className": 4
   },
   {
-    "id": "7313ce06-b83e-412d-9ca9-7539a4bfa5fa",
-    "name": "Jane",
-    "age": "Jane",
-    "gender": "Male",
-    "className": "23"
-  },
-  {
-    "id": "b84a2b10-7d2d-4577-9cfe-77656a96c2a4",
-    "name": "Jane",
-    "age": "Jane",
-    "gender": "Male",
-    "className": "435678"
-  },
-  {
-    "id": "1042a1ca-2f16-4852-990d-efe27f014344",
-    "name": "Jane",
-    "age": "Jane",
-    "gender": "Male"
-  },
-  {
-    "id": "abddbd56-6640-42b7-95ef-61090b5d3b1c",
-    "name": "Joe",
-    "age": "Joe",
-    "gender": "Male"
-  },
-  {
     "id": "3e10b01e-5b1f-4725-b993-396c83ad3aa1",
     "name": "Joe",
     "age": 45,
@@ -49,5 +23,19 @@
     "name": "Junior",
     "age": 345,
     "gender": "wertyu"
+  },
+  {
+    "id": "93f8bcdc-6506-4bc0-803d-2df4526e8c99",
+    "name": "Junior",
+    "age": 345,
+    "gender": "what about you",
+    "className": "class289"
+  },
+  {
+    "id": "06f4763c-02fe-4cb4-bd5b-46fad18892b4",
+    "name": "Junior",
+    "age": 345,
+    "gender": "wertyu",
+    "className": "class2"
   }
 ]
