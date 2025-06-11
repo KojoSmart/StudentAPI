@@ -6,7 +6,7 @@ const doc = {
 
         description: "Description"
     },
-    host: 'localhost:3000'
+    host: 'https://studentapi-vce7.onrender.com'
 };
 
 const outputFile = './swagger-output.json';
