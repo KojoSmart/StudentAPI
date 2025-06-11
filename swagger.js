@@ -6,7 +6,7 @@ const doc = {
 
         description: "Description"
     },
-    host: 'https://studentapi-vce7.onrender.com',
+    host: 'studentapi-vce7.onrender.com',
     schemes: ['https']
 };
 
