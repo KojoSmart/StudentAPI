@@ -28,6 +28,7 @@ router.get("/students/:id", async (req, res) => {
 });
 
 router.post("/students", async (req, res) => {
+  const{name, age, gender, className} = req.body;
   const { error, value } = registerUserValidator.validate(req.body);
   if (error) {
     return res.status(422).json({error: error.details[0].message});
@@ -40,7 +41,7 @@ router.post("/students", async (req, res) => {
     name: value.name,
     age: value.age,
     gender: value.gender,
-    className: value.class,
+    className: value.className,
   };
   students.push(newStudents);
   await writeData("students.json", students);
